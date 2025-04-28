@@ -54,9 +54,13 @@ console.log(Test_05.avogadro());
 // Напишите класс Test_06 со статическим методом perimeter. Метод принимает две стороны прямоугольника a, b number и возвращает периметр прямоугольника. Не забывайте про типы данных.
 
 
-
+class Test_06{
+    public static perimeter(a:number , b: number){
+        return (2 * a +  2 * b);
+    }
+}
 // Проверка
-// console.log(Test_06.perimeter(2, 3)); // ожидаем 10
+console.log(Test_06.perimeter(2, 3)); // ожидаем 10
 
 
 // Task 07
