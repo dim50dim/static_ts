@@ -26,13 +26,16 @@ console.log(Test_03.a);
 
 // Task 04
 // В классе можно совмещать свойства обычные и static с одинаковыми именами. Создайте класс Test_04 со свойством x (number) равное 4 и со свойством static x (number) равное 5. 
-
+class Test_04{
+    public x : number = 4;
+    public static x : number = 5;
+}
 
 
 // Проверка
-// console.log(Test_04.x);
-// let obj_04 = new Test_04();
-// console.log(obj_04.x);
+console.log(Test_04.x);
+let obj_04 = new Test_04();
+console.log(obj_04.x);
 
 
 // Task 05
