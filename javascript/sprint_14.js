@@ -12,8 +12,11 @@ Test.a = 99;
 console.log(Test.a);
 // Task 03
 // Создайте класс Test_03 со статическим readonly свойством a (number) равное 222.
+class Test_03 {
+    static a = 222;
+}
 // Проверка
-// console.log(Test_03.a);
+console.log(Test_03.a);
 // Task 04
 // В классе можно совмещать свойства обычные и static с одинаковыми именами. Создайте класс Test_04 со свойством x (number) равное 4 и со свойством static x (number) равное 5. 
 // Проверка
