@@ -66,7 +66,10 @@ console.log(Test_06.perimeter(2, 3)); // ожидаем 10
 // Task 07
 // Статические методы могут использовать другие статические свойства через this. Создайте класс Test_07. В нем пропишите статическое свойство passwordLength = 8. Создайте статический метод validate, который принимает пароль как аргумент и возвращает true/false если длина пароля больше чем passwordLength. Не забывайте прописывать типы данных. 
 
-
+  class Test_07{
+    public static passwordLength : number = 8;
+    
+  }
 
 // Проверка
 // console.log(Test_07.validate('abba12345'));
