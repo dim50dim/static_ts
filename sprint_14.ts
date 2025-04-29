@@ -86,7 +86,7 @@ class Test_08 extends Test_07{}
 
 // Проверка
 console.log('Test_08');
-console.log(Test_08.validate('abba12345'));
+console.log(Test_08.validate('abba1234'));
 
 
 // Task 09
