@@ -68,11 +68,14 @@ console.log(Test_06.perimeter(2, 3)); // ожидаем 10
 
   class Test_07{
     public static passwordLength : number = 8;
-    
+
+    public static validate(password : string) : boolean{
+        return password.length  >this.passwordLength;
+    }
   }
 
 // Проверка
-// console.log(Test_07.validate('abba12345'));
+console.log(Test_07.validate('abba12345'));
 
 
 // Task 08
