@@ -81,11 +81,12 @@ console.log(Test_07.validate('abba12345'));
 // Task 08
 // Статические методы и свойства могут наследоваться. Создайте класс Test_08, который наследуется от класса Test_07. Ничего не пишите в класс. Запустите проверку.
 
+class Test_08 extends Test_07{}
 
 
 // Проверка
-// console.log('Test_08');
-// console.log(Test_08.validate('abba12345'));
+console.log('Test_08');
+console.log(Test_08.validate('abba12345'));
 
 
 // Task 09
