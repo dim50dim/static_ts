@@ -91,11 +91,13 @@ console.log(Test_08.validate('abba1234'));
 
 // Task 09
 // Создайте класс Test_09, который наследуется от класса Test_07. В классе создайте статическое свойство passwordLength = 10. Запустите проверку. 
-
+ class Test_09 extends Test_07{
+    public static passwordLength: number = 10;
+ }
 
 // Проверка
-// console.log(Test_09.passwordLength);
-// console.log(Test_09.validate('abba12345'));
+console.log(Test_09.passwordLength);
+console.log(Test_09.validate('abba12345'));
 
 
 // Task 10 
