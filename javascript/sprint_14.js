@@ -79,5 +79,5 @@ class Test_10 {
     }
 }
 // Проверка
-// console.log(Test_10.foo10());
+console.log(Test_10.foo10());
 //# sourceMappingURL=sprint_14.js.map
