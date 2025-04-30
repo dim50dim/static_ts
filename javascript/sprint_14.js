@@ -72,12 +72,12 @@ console.log(Test_09.passwordLength);
 console.log(Test_09.validate('abba12345'));
 // Task 10 
 // Статические свойства могут быть не только public, но и private. Изучите пример.
-// class Test_10 {
-//     private static foo : number = 70;
-//     public static foo10 () : number {
-//         return this.foo * 10;
-//     }
-// }
+class Test_10 {
+    static foo = 70;
+    static foo10() {
+        return this.foo * 10;
+    }
+}
 // Проверка
 // console.log(Test_10.foo10());
 //# sourceMappingURL=sprint_14.js.map
