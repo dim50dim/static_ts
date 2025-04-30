@@ -56,7 +56,7 @@ console.log(Test_05.avogadro());
 
 class Test_06{
     public static perimeter(a:number , b: number){
-        return (2 * a +  2 * b);
+        return ((a + b) * 2);
     }
 }
 // Проверка
